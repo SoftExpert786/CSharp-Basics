@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\bin\Debug\net6.0\FindTodayDayWithSwith.exe
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\bin\Debug\net6.0\FindTodayDayWithSwith.deps.json
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\bin\Debug\net6.0\FindTodayDayWithSwith.runtimeconfig.json
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\bin\Debug\net6.0\FindTodayDayWithSwith.dll
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\bin\Debug\net6.0\FindTodayDayWithSwith.pdb
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.dll
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\refint\FindTodayDayWithSwith.dll
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.pdb
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\FindTodayDayWithSwith.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\FindTodayDayWithSwith\obj\Debug\net6.0\ref\FindTodayDayWithSwith.dll

@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\ExceptionHundling\bin\Debug\net6.0\ExceptionHundling.exe
+E:\cSharp\ClassAndObject\ExceptionHundling\bin\Debug\net6.0\ExceptionHundling.deps.json
+E:\cSharp\ClassAndObject\ExceptionHundling\bin\Debug\net6.0\ExceptionHundling.runtimeconfig.json
+E:\cSharp\ClassAndObject\ExceptionHundling\bin\Debug\net6.0\ExceptionHundling.dll
+E:\cSharp\ClassAndObject\ExceptionHundling\bin\Debug\net6.0\ExceptionHundling.pdb
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.dll
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\refint\ExceptionHundling.dll
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.pdb
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ExceptionHundling.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\ExceptionHundling\obj\Debug\net6.0\ref\ExceptionHundling.dll

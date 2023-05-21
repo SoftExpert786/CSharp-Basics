@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\PrintTable\bin\Debug\net6.0\PrintTable.exe
+E:\cSharp\ClassAndObject\PrintTable\bin\Debug\net6.0\PrintTable.deps.json
+E:\cSharp\ClassAndObject\PrintTable\bin\Debug\net6.0\PrintTable.runtimeconfig.json
+E:\cSharp\ClassAndObject\PrintTable\bin\Debug\net6.0\PrintTable.dll
+E:\cSharp\ClassAndObject\PrintTable\bin\Debug\net6.0\PrintTable.pdb
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.dll
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\refint\PrintTable.dll
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.pdb
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\PrintTable.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\PrintTable\obj\Debug\net6.0\ref\PrintTable.dll

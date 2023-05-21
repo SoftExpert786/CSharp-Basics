@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\bin\Debug\net6.0\ArrayByTakingInputFromUser.exe
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\bin\Debug\net6.0\ArrayByTakingInputFromUser.deps.json
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\bin\Debug\net6.0\ArrayByTakingInputFromUser.runtimeconfig.json
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\bin\Debug\net6.0\ArrayByTakingInputFromUser.dll
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\bin\Debug\net6.0\ArrayByTakingInputFromUser.pdb
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.dll
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\refint\ArrayByTakingInputFromUser.dll
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.pdb
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ArrayByTakingInputFromUser.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\ArrayByTakingInputFromUser\obj\Debug\net6.0\ref\ArrayByTakingInputFromUser.dll

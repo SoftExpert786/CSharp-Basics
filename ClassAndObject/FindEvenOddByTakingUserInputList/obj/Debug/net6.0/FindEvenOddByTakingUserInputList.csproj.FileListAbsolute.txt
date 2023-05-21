@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\bin\Debug\net6.0\FindEvenOddByTakingUserInputList.exe
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\bin\Debug\net6.0\FindEvenOddByTakingUserInputList.deps.json
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\bin\Debug\net6.0\FindEvenOddByTakingUserInputList.runtimeconfig.json
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\bin\Debug\net6.0\FindEvenOddByTakingUserInputList.dll
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\bin\Debug\net6.0\FindEvenOddByTakingUserInputList.pdb
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.dll
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\refint\FindEvenOddByTakingUserInputList.dll
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.pdb
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\FindEvenOddByTakingUserInputList.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\FindEvenOddByTakingUserInputList\obj\Debug\net6.0\ref\FindEvenOddByTakingUserInputList.dll

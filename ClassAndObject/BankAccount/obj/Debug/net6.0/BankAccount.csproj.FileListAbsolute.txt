@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\BankAccount\bin\Debug\net6.0\BankAccount.exe
+E:\cSharp\ClassAndObject\BankAccount\bin\Debug\net6.0\BankAccount.deps.json
+E:\cSharp\ClassAndObject\BankAccount\bin\Debug\net6.0\BankAccount.runtimeconfig.json
+E:\cSharp\ClassAndObject\BankAccount\bin\Debug\net6.0\BankAccount.dll
+E:\cSharp\ClassAndObject\BankAccount\bin\Debug\net6.0\BankAccount.pdb
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.dll
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\refint\BankAccount.dll
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.pdb
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\BankAccount.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\BankAccount\obj\Debug\net6.0\ref\BankAccount.dll

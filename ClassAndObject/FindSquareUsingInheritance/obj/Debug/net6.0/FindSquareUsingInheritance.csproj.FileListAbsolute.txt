@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\bin\Debug\net6.0\FindSquareUsingInheritance.exe
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\bin\Debug\net6.0\FindSquareUsingInheritance.deps.json
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\bin\Debug\net6.0\FindSquareUsingInheritance.runtimeconfig.json
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\bin\Debug\net6.0\FindSquareUsingInheritance.dll
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\bin\Debug\net6.0\FindSquareUsingInheritance.pdb
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.dll
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\refint\FindSquareUsingInheritance.dll
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.pdb
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\FindSquareUsingInheritance.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\FindSquareUsingInheritance\obj\Debug\net6.0\ref\FindSquareUsingInheritance.dll

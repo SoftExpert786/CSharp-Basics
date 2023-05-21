@@ -1,0 +1,15 @@
+E:\cSharp\ClassAndObject\CalCulator\bin\Debug\net6.0\CalCulator.exe
+E:\cSharp\ClassAndObject\CalCulator\bin\Debug\net6.0\CalCulator.deps.json
+E:\cSharp\ClassAndObject\CalCulator\bin\Debug\net6.0\CalCulator.runtimeconfig.json
+E:\cSharp\ClassAndObject\CalCulator\bin\Debug\net6.0\CalCulator.dll
+E:\cSharp\ClassAndObject\CalCulator\bin\Debug\net6.0\CalCulator.pdb
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.csproj.AssemblyReference.cache
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.GeneratedMSBuildEditorConfig.editorconfig
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.AssemblyInfoInputs.cache
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.AssemblyInfo.cs
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.csproj.CoreCompileInputs.cache
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.dll
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\refint\CalCulator.dll
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.pdb
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\CalCulator.genruntimeconfig.cache
+E:\cSharp\ClassAndObject\CalCulator\obj\Debug\net6.0\ref\CalCulator.dll
