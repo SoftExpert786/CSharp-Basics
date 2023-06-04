@@ -3,7 +3,18 @@ using CSharpPrograms.CBasic.Arthimatic_Program;
 using CSharpPrograms.OOPProgram.EncapSulation;
 using CSharpPrograms.OOPProgram.Interfce;
 using CSharpPrograms.OOPProgram.Inheritance;
-using System.Runtime.CompilerServices;
+using CSharpPrograms.Anonymous;
+using CSharpPrograms.OOPProgram;
+using CSharpPrograms.OOPProgram.Abstraction;
+using CSharpPrograms.Collection;
+using CSharpPrograms.Collection.Generic;
+using CSharpPrograms.CBasic;
+using CSharpPrograms.ExtensionConcept;
+using System.Threading;
+using CSharpPrograms;
+using System.Runtime.Serialization.Formatters.Binary;
+using CSharpPrograms.DependingInjection;
+using CSharpPrograms.stringProgram;
 
 namespace Program
 {
@@ -11,8 +22,8 @@ namespace Program
     {
         static void Main(String[] args)
         {
-            Stat:
-            Console.WriteLine("IF you Want to Find Array Write 1" + 
+        Stat:
+            Console.WriteLine("IF you Want to Find Array Write 1" +
                 "IF you Want to Find Using Input Method Array Write 2" +
                 "IF you Want to Find Even Number Write 3" +
                 "If You Want to Find Factorical Value of a number  Write 4" +
@@ -23,94 +34,403 @@ namespace Program
                 "IF you Want to Find area of Ishape Write 9" +
                 "IF you Want to Find Area Shape Write 10"
                 );
-            int select = int.Parse(Console.ReadLine());
-            if (select == 1)
+            bool Flag; int select;
+            Flag = int.TryParse(Console.ReadLine(), out select);
+            do
             {
-                ArrayBasic.ArrayFun();
-            }
-            else if (select == 2)
-            {
-                ArrayBasic.ArrayInput();
-            }
-            else if (select == 3) { EvenOdd.Even(); }
-            else if (select == 4)
-            {
-                FactorialValue.Factorial();
-            }
-            else if (select == 5)
-            {
-                Table.TableFun();
-            }
-            else if (select == 6)
-            {
-                Calculator.CalCulatorFun();
-            }
-            else if (select == 7)
-            {
-                Grade.GradeFun();
-            }
-            else if (select == 8)
-            {
-                Bank bank = new Bank();
-            Again:
-                Console.WriteLine("Enter your Account Number");
-                int Accountnumber = int.Parse(Console.ReadLine());
-                Console.WriteLine("Enter your Amount ");
-                decimal AccountBalance = decimal.Parse(Console.ReadLine());
-                Console.WriteLine("To Check Balance Enter 1,To Deposit Amount 2,To Wiyhdraw Amount 3");
-                int selecti = int.Parse(Console.ReadLine());
-                if (selecti == 1)
+                if (select == 1)
                 {
-                    BankAccount.CheckBalance(bank);
+                    ArrayBasic.ArrayFun();
+                }
+                else if (select == 2)
+                {
+                    ArrayBasic.ArrayInput();
+                }
+                else if (select == 3) { EvenOdd.Even(); }
+                else if (select == 4)
+                {
+                    FactorialValue.Factorial();
+                }
+                else if (select == 5)
+                {
+                    Table.TableFun();
+                }
+                else if (select == 6)
+                {
+                    Calculator.CalCulatorFun();
+                }
+                else if (select == 7)
+                {
+                    Grade.GradeFun();
+                }
+                else if (select == 8)
+                {
+                    Bank bank = new Bank();
+                Again:
+                    Console.WriteLine("Enter your Account Number");
+                    int Accountnumber = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter your Amount ");
+                    decimal AccountBalance = decimal.Parse(Console.ReadLine());
+                    Console.WriteLine("To Check Balance Enter 1,To Deposit Amount 2,To Wiyhdraw Amount 3");
+                    int selecti = int.Parse(Console.ReadLine());
+                    if (selecti == 1)
+                    {
+                        BankAccount.CheckBalance(bank);
 
 
+                    }
+                    else if (selecti == 2)
+                    {
+                        BankAccount.DepositBalance(Accountnumber, AccountBalance);
+
+                    }
+                    else if (selecti == 3)
+                    {
+                        BankAccount.WithdrawBalance(Accountnumber, AccountBalance);
+                    }
+                    else
+                    {
+                        Console.WriteLine("You have enter Wrong number");
+                    }
+                    goto Again;
                 }
-                else if (selecti == 2)
+                else if (select == 9)
                 {
-                    BankAccount.DepositBalance(Accountnumber, AccountBalance);
+                    shape shapeI = new shape();
+
+                    shapeI.GetDemonsional(10, 56);
+                    shapeI.Area();
+                    shapeI.Perimeter();
+
+                    Console.ReadLine();
+                }
+                else if (select == 10)
+                {
+                    Circle shape = new Circle();
+                    shape.GetDemonsion(4.5);
+                    shape.Area();
+                    shape.Perimeter();
+                    Rectanguler shape1 = new Rectanguler();
+                    shape1.GetDemonsion(4.5, 4.6);
+                    shape1.Area();
+                    shape1.Perimeter();
+                    Square shape2 = new Square();
+                    shape2.GetDemonsion(4.5);
+                    shape2.Area();
+                    shape2.Perimeter();
+                }
+                if (select == 11)
+                {
+                    program.Add(delegate (int b) { b += 15; Console.WriteLine(b); }, 5);
+                }
+                else if (select == 12)
+                {
+                    MyCalculator calobj = new MyCalculator(calculator.Add);
+                    calobj(23, 44);
+                    MyCalculator calobj1 = new MyCalculator(calculator.Sub);
+                    calobj1(23, 44);
+                    MyCalculator calobj2 = new MyCalculator(calculator.Mul);
+                    calobj2(23, 44);
+                    MyCalculator calobj3 = new MyCalculator(calculator.divide);
+                    calobj3(23, 44);
+                }
+                else if (select == 13)
+                {
+                    myDelegatesLambda delegateObject = (number1, number2) =>
+                    {
+                        try { Console.WriteLine("{0} + {1} = {2}", number1, number2, number1 + number2); } catch (Exception Ex) { Console.WriteLine(Ex.Message); }
+
+                    };
+                    delegateObject(23, 45);
+                }
+                else if (select == 14)
+                {
+                    Student student = new Student();
+                    student.Name = "zain";
+                    student.Id = 0;
+                    student.ShowInfo();
+                    Teacher teacher = new Teacher();
+                    teacher.Name = "Raza";
+                    teacher.Id = 3;
+                    teacher.ShowInfo();
+                }
+                else if (select == 15)
+                {
+                    GenericConcept<int> genericConcept = new GenericConcept<int>(6);
+                    Console.WriteLine(genericConcept.getBox());
+                    GenericConcept<string> genericConcept1 = new GenericConcept<string>("zain");
+                    Console.WriteLine(genericConcept1.getBox());
+                    int[] number = { 1, 2, 3 };
+                    string[] name = { "zain", "ali" };
+                    genericMethod.showArray(number);
+                    genericMethod.showArray(name);
+                }
+                else if (select == 16)
+                {
+                    HashTableProgram.HashtableMethod();
+                }
+                else if (select == 17)
+                {
+                    StackF.stackMethod();
+                }
+                else if (select == 18)
+                {
+                    QueueConcept.QueueMethod();
+                }
+                else if (select == 19)
+                {
+                    ListConcept.ListMethod();
+                }
+                else if (select == 20)
+                {
+                    DictionaryFun.DictionaryMethod();
+                }
+                else if (select == 21)
+                {
+                    ClassPartial partial = new ClassPartial();
+                    partial.fIrstName = "zain";
+                    partial.S_Name = "Alvi";
+                    Console.WriteLine(partial.getName());
 
                 }
-                else if (selecti == 3)
+                else if (select == 22)
                 {
-                    BankAccount.WithdrawBalance(Accountnumber, AccountBalance);
+                    Console.WriteLine(additionOfNumberUsingParams.AddNumbers(2, 45, 66, 78));
+
                 }
+                else if (select == 23)
+                {
+
+                    Thread T1 = new Thread(MultiThreadingConcept.func1);
+                    Thread T2 = new Thread(MultiThreadingConcept.func2);
+                    Thread T3 = new Thread(MultiThreadingConcept.func3);
+                    T1.Start();
+                    T2.Start();
+                    T3.Start();
+                }
+                else if (select == 24)
+                {
+                    defualtClass obj = new defualtClass();
+                    obj.func3();
+
+                }
+                else if (select == 25)
+                {
+                    string path = @"E:\Demo";
+
+                    DirectoryInfo dir = new DirectoryInfo(path);
+                    dir.Create();
+                    Console.WriteLine(dir.LastAccessTime);
+
+                    //dir.Delete
+                    DirectoryInfo[] dirs = dir.GetDirectories();
+                    foreach (DirectoryInfo d in dirs)
+                    {
+                        Console.WriteLine(d.FullName);
+                        Console.WriteLine(d.GetFiles().Length);
+                    }
+
+                    // string path2 = @"E:Demo1.txt";
+                    // if (File.Exists(path))
+                    //{
+                    //  string data= File.ReadAllText(path);
+                    // Console.WriteLine(data);
+                    //File.Copy(path, path2,true);
+                    //  }
+                    //else
+                    //{
+                    //  Console.WriteLine("Invalid Path");
+                    //}
+                }
+                else if (select == 26)
+                {
+                    FileMangement.fileFunc();
+                }
+                else if (select == 27)
+                {
+                    FileMangement.Readr();
+                }
+                else if (select == 28)
+                {
+                    SwapingTwoNumber.Swaping();
+                }
+                else if (select == 29)
+                {
+                    Parlindome.parl();
+                }
+                else if (select == 30)
+                {
+                    MaxAndMin.checkvalue();
+                }
+                else if (select == 31)
+                {
+                    try
+                    {
+                        string path = @"E:\File1.txt";
+                        SerializationConcept se = new SerializationConcept(23, "Zain");
+                        FileStream file = new FileStream(path, FileMode.OpenOrCreate);
+                        BinaryFormatter formatter = new BinaryFormatter();
+                        formatter.Serialize(file, se);
+                        file.Close();
+                        Console.WriteLine("File Serializae");
+                    }
+                    catch (Exception Ex)
+                    {
+                        Console.WriteLine(Ex.Message);
+                    }
+                }
+                else if (select == 32)
+                {
+                    string path = @"E:\File1.txt";
+                    FileStream file = new FileStream(path, FileMode.OpenOrCreate);
+                    BinaryFormatter bf = new BinaryFormatter();
+                    SerializationConcept concept = (SerializationConcept)bf.Deserialize(file);
+                    Console.WriteLine(concept.Id);
+                    Console.WriteLine(concept.Name);
+                }
+                else if (select == 33)
+                {
+                    IAccount account = new CurrentAccount();
+                    Account a = new Account(account);
+                    a.DetailAccount();
+
+                }
+                else if (select == 34)
+                {
+                    AccountP accountP = new AccountP();
+                    accountP.accountP = new SavingAccountp();
+                    accountP.DetailAccounts();
+                    AccountP accountP1 = new AccountP();
+                    accountP1.accountP = new CurrentAccountp();
+                    accountP1.DetailAccounts();
+                }
+                else if (select == 35)
+                {
+                    AccountM accountM = new AccountM();
+                    accountM.PrintAccount(new SavingAccountM());
+                    AccountM accountM1 = new AccountM();
+                    accountM1.PrintAccount(new CurrentAccountM());
+                }
+                else if (select == 36)
+                {
+                    EnumC.Func();
+                }
+                else if (select == 37)
+                {
+                    stringPrograms.InputString();
+                }
+                else if (select == 38)
+                {
+                    stringPrograms.countString();
+                }
+                else if (select == 39)
+                {
+                    stringPrograms.PrintIndividualChar();
+                }
+                else if (select == 40)
+                {
+                    stringPrograms.PrintReverseChar();
+                }
+                else if (select == 41)
+                {
+                    stringPrograms.CountWord();
+                }
+                else if (select == 42)
+                {
+                    stringPrograms.CompareString();
+                }
+                else if (select == 43)
+                {
+                    stringPrograms.CountDigit();
+                }
+                else if (select == 44)
+                {
+                    stringPrograms.CopyString();
+                }
+                else if (select == 45)
+                {
+                    stringPrograms.VowelOrConsonent();
+                }
+                else if (select == 46)
+                {
+                    stringPrograms.Countdigit();
+                }
+                else if (select == 47)
+                {
+                    stringPrograms.accendingOrder();
+                }
+                else if (select == 48)
+                {
+                    stringPrograms.decendingOrder();
+                }
+                else if (select == 49)
+                {
+                    stringPrograms.Bubblesort();
+                }
+                else if (select == 50)
+                {
+                    stringPrograms.Subscript();
+                }
+                else if (select == 51)
+                {
+                    stringPrograms.CheckSubstring();
+                }
+                else if (select == 52)
+                {
+                    stringPrograms.LowerToUpper();
+                }
+                else if (select == 53)
+                {
+                    stringPrograms.logIn();
+                }
+                else if (select == 54)
+                {
+                    stringPrograms.SearchString();
+                }
+                else if (select == 55)
+                {
+                    stringPrograms.FindCherisletterOrnumber();
+                }
+                else if (select == 56)
+                {
+                    stringPrograms.CountSubString();
+                }
+                else if (select == 57)
+                {
+                    stringPrograms.InsertString();
+                }
+                else if (select == 58)
+                {
+                    stringPrograms.Compare();
+                }
+                else if (select == 59)
+                {
+                    stringPrograms.Sortedlastname();
+                }
+                else if (select == 60)
+                {
+                    stringPrograms.ComparewithignoreCase();
+                }
+                else if (select == 61)
+                {
+                    stringPrograms.CompareToupperandIgnorecase();
+                }
+                else if (select == 62)
+                {
+                    stringPrograms.CultureInCompare();
+                }
+                else if (select == 63)
+                {
+                    stringPrograms.CompareWiththreecase();
+                }
+
                 else
                 {
-                    Console.WriteLine("You have enter Wrong number");
+                    Console.WriteLine("You enter Wrong Number Write Correct number between 1-10");
                 }
-                goto Again;
-            }
-            else if (select == 9)
-            {
-                shape shapeI = new shape();
+                
 
-                shapeI.GetDemonsional(10, 56);
-                shapeI.Area();
-                shapeI.Perimeter();
-
-                Console.ReadLine();
-            }
-            else if (select == 10)
-            {
-                Circle shape = new Circle();
-                shape.GetDemonsion(4.5);
-                shape.Area();
-                shape.Perimeter();
-                Rectanguler shape1 = new Rectanguler();
-                shape1.GetDemonsion(4.5, 4.6);
-                shape1.Area();
-                shape1.Perimeter();
-                Square shape2 = new Square();
-                shape2.GetDemonsion(4.5);
-                shape2.Area();
-                shape2.Perimeter();
-            }
-            else
-            {
-                Console.WriteLine("You enter Wrong Number Write Correct number between 1-10");
-            }
-            goto Stat;
-
+            } while (Flag == false);
         }
     }
 }
