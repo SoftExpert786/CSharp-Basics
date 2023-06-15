@@ -423,6 +423,186 @@ namespace Program
                 {
                     stringPrograms.CompareWiththreecase();
                 }
+                else if (select == 64)
+                {
+                    stringPrograms.conpareOrdinalOrCompare();
+                }
+                else if (select == 65)
+                {
+                    stringPrograms.CompareobjectToLis();
+                }
+                else if (select == 66)
+                {
+                    stringPrograms.CompareTostringWithInstant();
+                }
+                else if (select == 67)
+                {
+                    stringPrograms.CoccatenateString();
+                }
+                else if (select == 68)
+                {
+                    stringPrograms.ConcatenatelistOfvariable();
+                }
+                else if (select == 69)
+                {
+                    stringPrograms.Concatenatethreestrings();
+                }
+                else if (select == 70)
+                {
+                    stringPrograms.ConcatenateStringArray();
+                }
+                else if (select == 71)
+                {
+                    stringPrograms.SearchStrings();
+                }
+                else if (select == 72)
+                {
+                    stringPrograms.CopyToString();
+                }
+                else if (select == 73)
+                {
+                    stringPrograms.CopyStringwithMethod();
+                }
+                else if (select == 74)
+                {
+                    stringPrograms.CheckEndPoint();
+                }
+                else if (select == 75)
+                {
+                    stringPrograms.ReverseCharacterandupper();
+                }
+                else if (select == 76)
+                {
+                    
+                    stringPrograms.CheckSubstringoccurAtEndofString();
+                }
+                else if (select == 77)
+                {
+                   
+                    Console.WriteLine("after the conversation is {0}", stringPrograms.upperLower("Java"));
+                }
+                else if (select == 78)
+                {
+
+                    Console.WriteLine("after the conversation is {0}", stringPrograms.findMiddleDigit("Java"));
+                    Console.WriteLine("after the conversation is {0}", stringPrograms.findMiddleDigit("python"));
+                }
+                else if (select == 79)
+                {
+
+                    stringPrograms.FindMaxorMinFromstring();
+                }
+                else if (select == 80)
+                {
+                    string Str = "python";
+                    Console.WriteLine("Given string {0} are IsoGram :",Str);
+                    Console.WriteLine(stringPrograms.ISoGram(Str)); 
+                }else if (select == 81)
+                {
+                    stringPrograms.firstLetterCapital();
+                }
+                else if (select == 82)
+                {
+                    stringPrograms.findPositionOfSpecificWord();
+                }
+                else if (select == 83)
+                {
+                    stringPrograms.reverseEvenNumberWord();
+                }
+                else if (select == 84)
+                {
+                    stringPrograms.findSameEndofString();
+                }
+                else if (select == 85)
+                {
+                    stringPrograms.stringsAreAnagramOrNot();
+                }
+                else if (select == 86)
+                {
+                    stringPrograms.reverseApositiveInteger();
+                }
+                else if (select == 87)
+                {
+                    stringPrograms.countDuplicateChar();
+                }
+                else if (select == 88)
+                {
+                    stringPrograms.findSpecificstring();
+                }
+                else if (select == 89)
+                {
+                    stringPrograms.displayAlphabatWithTheirAsciinumber();
+                }
+                else if (select == 90)
+                {
+                    stringPrograms.countSubstring();
+                }
+                else if (select == 91)
+                {
+                    stringPrograms.FindabecedarianWord();
+                }
+                else if (select == 92)
+                {
+                    stringPrograms.century();
+                }
+                else if (select == 93)
+                {
+                    stringPrograms.FrequencyOccurChar();
+                }
+                else if (select == 94)
+                {
+                    stringPrograms.convertDigitToAscii();
+                }
+                else if (select == 95)
+                {
+                    ArrayPrograms.CountduplicateChar();
+                }
+                else if (select == 96)
+                {
+                    printRightTriange.rightAngle();
+                }
+                else if (select == 97)
+                {
+                    printRightTriange.pyramid();
+                }
+                else if (select == 99)
+                {
+                    printRightTriange.perfectNumber();
+                }
+                else if (select == 98)
+                {
+                    printRightTriange.floydTriangle();
+                }
+                else if (select == 100)
+                {
+                    printRightTriange.armstoneNumber();
+                }
+                else if (select == 101)
+                {
+                    printRightTriange.findBinaryNumber();
+                }
+                else if (select == 102)
+                {
+                    printRightTriange.findHCF();
+                }
+                else if (select == 103)
+                {
+                    printRightTriange.convertToOctal();
+                }
+                else if (select == 104)
+                {
+                  CNICDetail.CNIC() ;
+                }
+                else if (select == 105)
+                {
+                    stringPrograms.findMax();
+                }
+                else if (select == 106)
+                {
+                    stringPrograms.findMaxWithMaxVar();
+                }
+
+
 
                 else
                 {
